@@ -1,9 +1,104 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    padding: 50px 0;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .profile-section .img-fluid {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .profile-section .profile-text {
+    margin-top: 30px;
+  }
+  
+  .profile-section .btn-container .btn {
+    margin: 10px;
+  }
+  
+  .profile-section .socials-container .icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 50px 0;
+  }
+  
+  /* Experience Section */
+  .experience-section {
+    padding: 50px 0;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level {
+    background-color: #e9ecef;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .skill-level-bar {
+    height: 10px;
+    background-color: #007bff;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 50px 0;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 50px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
 
-img{
-    width: 4%;
-}
+  
