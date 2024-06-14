@@ -3,7 +3,12 @@ const typingElement = document.getElementById('typing');
 const textArray = ['Leonerfy Hennep', 'a Full Stack Developer'];
 let textArrayIndex = 0;
 let charIndex = 0;
+const image = document.querySelector('.icon-profile')
+image.addEventListener('click', linked)
 
+ function linked() {
+  window.location.href = 'https://www.linkedin.com/in/leonerfy-hennep-87ab00311/'
+}
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
     typingElement.textContent += textArray[textArrayIndex].charAt(charIndex);
